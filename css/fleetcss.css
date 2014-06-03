@@ -1,0 +1,19 @@
+
+/*/////////////////////////////////////////////////////////////////////////////*/
+	/*CSS FOR FLEET PAGE*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+table {
+	margin: 25px auto;
+}
+
+#content th {
+	font-family: 'oxygenregular';
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#fleet img{
+	width: 473px;
+	height: 264px;
+}

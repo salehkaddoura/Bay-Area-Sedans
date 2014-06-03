@@ -1,0 +1,120 @@
+/*/////////////////////////////////////////////////////////////////////////////*/
+	/*CSS FOR MAIN CONTAINER*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+#main-container {
+	/*border: 1px solid orange;*/
+	width: 960px;
+	height: 445px;
+	background: url("../pics/towncar.png") top center no-repeat ;
+	display: block;
+	position: relative;
+	border-bottom: 2px solid #fff;
+}
+
+.logo-wrapper {
+	/*border: 1px solid red;*/
+	width: 960px;
+	height: 222px;
+
+}
+
+#logo {
+	/*border: 1px solid white;*/
+	height: ;
+	width: 500px;
+	float: right;
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+
+
+#logo h1:first-child {
+	/*border: 1px solid black;*/
+	-webkit-font-smoothing: antialiased;
+	-moz-font-smoothing: antialiased;
+	-o-font-smoothing: antialiased;
+	font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+	font-family: 'lobster_1.3regular';
+	font-size: 5em;
+	text-align: center;
+	color: #f1c40f;
+	margin: 0;
+	padding: 0;
+
+	
+}
+#logo h4 {
+	/*border: 1px solid red;*/
+	text-align: center;
+	font-family: 'oxygenregular';
+	margin:0;
+	color: white;
+	padding: 0;
+}
+
+#logo a {
+	color: #f1c40f;
+}
+#logo a:hover {
+	color: #c0392b;
+}
+
+#logo h2 {
+	/*border: 1px solid orange;*/
+	color: #f1c40f;
+	text-align: center;
+	font-size: 2.8em;
+	font-family: 'oxygenregular';
+	padding: 0;
+	margin: 0;
+	
+}
+
+.icon-wrapper {
+	/*border: 1px solid white;*/
+	width: 955px;
+	height: 222px;
+	position: relative;
+	margin: 0 auto;
+}
+
+#wifi-tcp1 {
+	/*border: 1px solid white; */
+	position: absolute;
+	width: 335px;
+	bottom: 0;
+	left: 0;
+	font-family: 'oxygenregular';
+	padding: 0;
+	margin: 0;
+}
+
+
+#social {
+	border:none;
+	height: 43px;
+	bottom: 0;
+	right: 0;
+	position: absolute;
+	margin: 5px;
+}
+	
+#social img {
+	height: 38px;
+	width: 38px;
+	padding: 0;
+	border-radius: 140px;
+}
+
+#social img:hover {
+	box-shadow: 0px 0px 5px 3px rgb(16,91,99);
+	-webkit-boxshadow:  0px 0px 5px 3px rgb(16,91,99);
+	-moz-boxshadow: 0px 0px 5px 3px rgb(16,91,99);
+	-o-boxshadow: 0px 0px 5px 3px rgb(16,91,99);
+	-webkit-transform: scale(1.1);
+	-moz-transfrom: scale(1.1);
+	-o-transform: scale(1.1);
+	transform: scale(1.1);
+}

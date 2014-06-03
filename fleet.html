@@ -3,149 +3,79 @@
 <html>
 
 <head>
-<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9">
-<link rel="stylesheet" type="text/css" href="css\stylesheet2.css">
-<title>Limo408</title>
 
+<meta charset=utf-8>
 
+<title>Metro Sedans - Fleet</title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 <link rel="icon" href="favicon.ico" type="image/x-icon">
-
-<!--[if !IE]> -->
-	<link rel="stylesheet" type="text/css" href="css\stylesheet.css" />
- <!--><![endif]-->
+<script type="text/javascript" src="js/jquery-1.11.1.min.js"></script>
+<script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
 
 </head>
-<style type="text/css">
-
-@font-face {
-	font-family: oxygen;
-	src: url(c:/users/sale/desktop/abid/fonts/Oxygen.otf);
-}
-
-table {
-	margin-top: 3%;
-	/*border: 1px solid black;*/
-}
-
-#content th {
-	font-family: oxygen;
-	text-align: center;
-	/*font-variant: small-caps;*/
-	text-transform: uppercase;
-}
-
-#fleet img{
-	width: 473px;
-	height: 264px;
-}
-
-#soon img{
-	width: 473px;
-	height: 300px;
-}
-#statement2 {
-	/*border: 1px solid black;*/
-	width: 955px;
-	height: 200px;
-	border-top: 2px solid black;
-	margin-top: 1%;
-}
-#statement2 p{
-	font-family: oxygen;
-	margin: auto;
-	padding: 5px;
-}
-/* #test img {
-	/*border: 1px solid black;
-	width: 470px;
-	height: 353px;
-}*/
-/*#content img {
-	/*display: inline;
-	/*border: 1px solid black;
-	width: 473px;
-	height: 264px;
-}*/
 
 
-
-
-
-</style>
 
 <body>
 	<div class="container">
 		<div id="main-container">
-			
-			<div id="logo">
-				<h1>Metro Sedans</h1>
-				<h4>Call for a Reservation 24/7 or <a href="fleet.html">eReserve</a></h4>
-			</div>
-			
-			<div id="num">
-				<h1>+1.408.230.6622</h1>
-			</div>
-
-			
-
-			<div id="social">
-				<a href="https://www.facebook.com"><img src="icons\fb.png"></a>
-				<a href="https://www.google.com"><img src="icons\google.png"></a>
-				<a href="https://www.yelp.com"><img src="icons\yelp.png"></a>
-				<a href=""><img src="icons\email.png"></a>
-				
-
-			</div>
-
-
-				<div id="wifi">
-					<img src="pics/wifi3.png">
+			<div class="logo-wrapper">
+				<div id="logo">
+					<h1>Metro Sedans</h1>
+					<h4>Call or Text for a Reservation 24/7 or <a href="reserve.html">eReserve</a></h4> 
+					<h2>+1.408.230.6622</h2>
 				</div>
+			</div>
+			<div class="logo-wrapper">
+				<div class="icon-wrapper">
+					<div id="wifi-tcp1">
+						<img src="pics/wifi3small.png" style="float: left; margin:0; padding: 0;">
+						<h1 style="float: left; margin:0; padding:0;">TCP 28329-P</h1>
+					</div>
 				
-				<div id="tcp1">
-					<h1>TCP 28329-P</h1>
+				
+					<div id="social">
+						<a href="https://www.facebook.com/MetroSedans" target="_blank"><img alt="Facebook Logo" title="Facebook" src="icons/fbsmall.png"></a>
+						<a href="https://www.google.com/+MetroSedanServiceSunnyvale" target="_blank"><img alt="Google+ Logo" title="Google+" src="icons/googlesmall.png"></a>
+						<a href="https://www.yelp.com/biz/best-limousine-service-santa-clara-4#query:metro%20sedans" target="_blank"><img alt="Yelp Logo" title="Yelp" src="icons/yelpsmall.png"></a> 
+						<a href="mailto:whereismytaxi@gmail.com" target="_blank"><img alt="Email" title="Email" src="icons/emailsmall.png"></a>
+					</div>
 				</div>
-
+			</div>
 		</div>
 
 		<div class="navbar">
-			<ul id="navigate">
-				<a href="index.html"><li>Home</li></a>
-				<a href="fleet.html"><li>Fleet</li></a>
-				<a href="reserve.html"><li>Reservations</li></a>
-				<a href="contact.html"><li>FAQ</li></a>
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li ><a class="active" href="fleet.html">Fleet</a></li>
+				<li><a href="reserve.html">Reservations</a></li>
+				<li><a href="contact.html">Info</a></li>
 			</ul>
-
-		</div>
+		</div
 		
 		
 		<div id="content">
-			<table>
-				
-
-
-				<tbody id="fleet">
-					
-						<tr>
-							<th>Mercedes Benz S550</th>
-							<th>Chevy Suburban SUV</th>
-							
-						</tr>
-						<tr>
-							<td><img src="pics/merc550.jpg"></td>
-							
-							<td><img src="pics/suburban.png"></td>
-						</tr>
-						<tr>
-							<th>Lincoln Town Car Sedan</th>
-							<th>Lincoln Town Car Stretch</th>
-						</tr>
-
-						<tr>
-							<td><img src="pics/towncar_black.jpg"></td>
-							<td><img src="pics/limo_black.jpg"></td>
-						</tr>
+			<table id="fleet">
+				<tbody>
+					<tr>
+						<th>Mercedes Benz S550</th>
+						<th>Chevy Suburban SUV</th>
+					</tr>
+					<tr>
+						<td><img src="pics/merc550small.jpg"></td>
+						<td><img src="pics/suburbansmall.png"></td>
+					</tr>
+					<tr>
+						<th>Lincoln Town Car Sedan</th>
+						<th>Lincoln Town Car Stretch</th>
+					</tr>
+					<tr>
+						<td><img src="pics/towncar_blacksmall.jpg"></td>
+						<td><img src="pics/limo_blacksmall.jpg"></td>
+					</tr>
 				</tbody>
 
 			</table>
@@ -153,38 +83,40 @@ table {
 				
 			
 			
-				<div class="footer">
-				
-					<div id="address">
-						<h3>Metro Sedans<br>2784 Homestead Road #239<br>Santa Clara, CA 95051<br>+1.408.230.6622</h3>
-						<a href="mailto:whereismytaxi@gmail.com"><p>whereismytaxi@gmail.com</p></a>
-					</div>
-
-					<div id="payment">
-						<img alt="Credit Card Logos" title="Credit Card Logos" src="pics/vislogo.jpg"/>
-						<img alt="Credit Card Logos" title="Credit Card Logos" src="pics/mastercard.jpg"/>
-						<img alt="Credit Card Logos" title="Credit Card Logos" src="pics/discover.jpg"/>
-						<img src="pics/american.jpg"/>
-					</div>
-
+		<div class="main-footer">
+			<div class="footer">
+				<div id="address">
+					<h3>Metro Sedans<br>2784 Homestead Road #239<br>Santa Clara, CA 95051<br>+1.408.230.6622<br><a href="mailto:whereismytaxi@gmail.com">whereismytaxi@gmail.com</a></h3> 
 				</div>
+			
+				<div id="payment">
+					<img alt="Visa Credit Card Logo" title="Visa Credit Card" src="pics/vislogosmall.jpg"/>
+					<img alt="Mastercard Credit Card Logo" title="Mastercard Credit Card" src="pics/mastercardsmall.jpg"/>
+					<img alt="Discover Credit Card Logo" title="Discover Credit Card" src="pics/discoversmall.jpg"/>
+					<img alt="American Express Credit Card Logo" title="American Express Credit Card" src="pics/americansmall.jpg"/>
+				</div>
+
+			</div>
 			
 			<div id="copy">
 				<p>Metro Sedans &#169</p>
 				<p>Also check out our <a href="#">Cab Service</a></p>
 			</div>
+				
+
+		</div> 
 
 
-		</div>
 
+</div>
 
-
-	</div>
-
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript" src="js/slick.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 
 
 </body>
 
-
+</html>
 
 

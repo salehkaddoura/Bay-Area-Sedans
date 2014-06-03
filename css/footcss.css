@@ -1,0 +1,99 @@
+
+/*/////////////////////////////////////////////////////////////////////////////*/
+	/*CSS FOR FOOTER*/
+/*/////////////////////////////////////////////////////////////////////////////*/
+
+
+.main-footer {
+	/*border: 1px solid black;*/
+	width: 100%;
+	height: ;
+	margin-top: 10px;
+	
+	/*background-color: rgba(232,232,232,0.6);*/
+	/*background-color: #ecf0f1;*/
+	
+}
+
+.footer {
+	/*border: 1px solid red;*/
+	border-top: 2px solid #fff;
+	border-bottom: 2px solid #fff;
+	height: 144px;
+	width: 100%;
+	position: relative;
+	background-color: rgba(255,211,78,0.6);
+	padding: 10px;
+
+}
+
+
+
+#address {
+	/*border: 1px solid black;*/
+	width: 305px;
+	height: ;
+	padding: 0;
+	margin-top:;
+	position: absolute;
+	bottom: 0;
+	right: 0;
+}
+
+#address h3 {
+	font-size: 1.2em;
+	text-align: center;
+	font-family: 'oxygenregular';
+	color: #000;
+	margin: 0 auto;
+	padding: 0;
+	line-height: 1.5;
+}
+
+
+
+a {
+	color: black;
+	text-decoration: none;
+}
+a:hover {
+	color: #f1c40f;
+}
+
+#payment {
+	/*border: 1px solid black;*/
+	width: 403px;
+	height: ;
+	float: left;
+	position: absolute;
+	bottom: 0;
+	padding: 0;
+	left: 0;
+}
+
+#payment img {
+	float: left;
+	width: 100px;
+	height: 63px;
+	margin: 0 auto;
+	padding: 0;
+}
+
+#copy {
+	/*border: 1px solid black;*/
+	height: 35px;
+	width: ;
+}
+
+#copy p {
+	font-family: 'oxygenregular';
+	text-align: center;
+	margin: 0 8px;
+	float: left;
+	padding: 0;
+	
+}
+
+#copy p a {
+	color:  #c0392b;
+}
