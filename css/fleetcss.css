@@ -7,13 +7,13 @@ table {
 	margin: 25px auto;
 }
 
-#content th {
+.fleet th {
 	font-family: 'oxygenregular';
 	text-align: center;
 	text-transform: uppercase;
 }
 
-#fleet img{
+.fleet img{
 	width: 473px;
 	height: 264px;
 }
