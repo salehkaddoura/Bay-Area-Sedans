@@ -44,37 +44,133 @@ a, p, h1, h2, h3 {
 	border-top: 3px solid rgb(16,91,99);
 	border-bottom: 3px solid rgb(16,91,99);
 	border-radius: 2px;
-	width: 560px;
-	height: auto;
+	width: 960px;
+	height: 515px;
 	background-color: rgba(255,211,78,0.5);
-	margin: 5px auto;
+	margin: 15px auto;
 	padding: 0;
 
 }
 
 .slideShow {
+		border: 1px solid black;
 		width: 500px;
 		height: auto;
 		border: none;
-		padding: 1px;
-		margin-top: 10px;
+		padding: ;
+		margin: 5px 0px 5px 27px;
+		float: left;
 }
 
-#statement {
+#bullets {
+	
+	
+	width: auto;
+	height: 42px;
+	background-color: rgba(255,211,78,0.5);
+	margin: 5px auto;
 	border-bottom: 2px solid #fff;
-	width: 955px;
+	/*border-left: 2px solid rgba(189,73,50, 0.3);*/
+}
+
+#bullets ul {
+	list-style-type: none;
+	margin: 0 auto;
+	padding: 0;
+	line-height: 1;
+	display: block;
+	zoom: 1;
+	
+	width: 925px;
+}
+
+#bullets ul li span:after {
+  content: ' ';
+  display: block;
+  font-size: 0;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+} 
+
+#bullets ul li {
+  float: left;
+  display: block;
+  padding: 0;
+}
+
+#bullets ul li {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  padding: 12px 10px;
+  font-family: 'oxygenregular', sans-serif;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 18px;
+  position: relative;
+ 
+}
+
+#bullets ul li span:before {
+  content: ' ';
+  display: block;
+  position: absolute;
+  right: -3px;
+  top: 19px;
+  height: 6px;
+  width: 6px;
+  background: #000;
+  opacity: 1;
+}
+
+
+#bullets ul li span:after {
+  content: '';
+  display: block;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  height: 3px;
+  width: 0;
+  background: #333333;
+
+}
+
+/*#bullets ul li {
+	font-family: 'oxygenregular';
+	font-size: 18px;
+	text-transform: uppercase;
+	font-weight: 500;
+	line-height: ;
+	text-align: center;
+	float: left;
+} */
+
+#statement {
+	/*border-bottom: 2px solid #fff;
 	margin: 10px auto;
 	border-radius: 2px;
-	background-color:  rgba(255,211,78,0.5);
+	background-color:  rgba(255,211,78,0.5);*/
+	border-left: 2px solid rgba(189,73,50, 0.8);
+	border-radius: 2px;
+	width: 390px;
+	float: right;
+	margin: 20px 3px;
+	padding: 70px 0;
+	/*background-color: rgba(189,73,50, 0.5);*/
+	
+	
 }
 
 #statement p {
 	border: none;
 	font-weight: 0;
 	text-align: center;
-	font-size: 1.3em;
+	font-size: 1.6em;
 	font-family: 'oxygenregular';
 	margin: 0 auto;
+	font-weight: 500;
 }
 
 /*/////////////////////////////////////////////////////////////////////////////*/
@@ -87,5 +183,5 @@ a, p, h1, h2, h3 {
 	width: 100%;
 	height: auto;
 	/*white-space: nowrap;*/
-	margin: 10px auto;
+	margin: 15px auto;
 }
